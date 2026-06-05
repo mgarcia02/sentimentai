@@ -1,0 +1,77 @@
+.sentiment-input {
+  background: #0d1724;
+
+  border: 1px solid #1a2535;
+  border-radius: 16px;
+
+  overflow: hidden;
+}
+
+.sentiment-input__textarea {
+  width: 100%;
+
+  padding: 20px 24px;
+
+  background: transparent;
+  border: none;
+
+  color: #c8dce8;
+
+  font-size: 15px;
+  line-height: 1.7;
+
+  resize: none;
+
+  font-family: "DM Sans", sans-serif;
+}
+
+.sentiment-input__footer {
+  padding: 12px 20px;
+
+  border-top: 1px solid #1a2535;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sentiment-input__info {
+  font-size: 11px;
+  color: #2a4060;
+
+  font-family: "DM Mono", monospace;
+}
+
+.sentiment-input__button {
+  padding: 9px 24px;
+
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  letter-spacing: 0.5px;
+
+  font-family: "DM Sans", sans-serif;
+
+  color: white;
+
+  background: linear-gradient(
+    135deg,
+    #6e8efb,
+    #a855f7
+  );
+
+  transition: all 0.2s ease;
+}
+
+.sentiment-input__button:disabled {
+  cursor: not-allowed;
+
+  color: #3a5070;
+
+  background: #1a2535;
+}

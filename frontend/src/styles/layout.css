@@ -1,0 +1,53 @@
+.header {
+  margin-bottom: 40px;
+}
+
+.header__top {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 6px;
+  flex-wrap: wrap
+}
+
+.header__title {
+  font-family: "Syne", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: #e8f4ff;
+  letter-spacing: -1px;
+}
+
+.header__badge {
+  font-size: 11px;
+  color: #2a4060;
+
+  font-family: "DM Mono", monospace;
+  letter-spacing: 3px;
+
+  background: #0d1724;
+
+  padding: 2px 8px;
+
+  border-radius: 4px;
+  border: 1px solid #1a2535;
+}
+
+.header__subtitle {
+  color: #3a5070;
+  font-size: 14px;
+  font-family: "DM Mono", monospace;
+}
+
+.footer {
+  margin-top: 48px;
+
+  text-align: center;
+
+  color: #1e2d42;
+
+  font-size: 11px;
+
+  font-family: "DM Mono", monospace;
+  letter-spacing: 2px;
+}

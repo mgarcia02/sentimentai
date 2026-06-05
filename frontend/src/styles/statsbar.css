@@ -1,0 +1,29 @@
+.stats-bar {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+}
+
+.stats-bar__card {
+    padding: 10px 18px;
+    background: #0d1724;
+    border-radius: 10px;
+    border: 1px solid #1a2535;
+    flex: 1 1 120px;
+}
+
+.stats-bar__label {
+    font-size: 10px;
+    color: #2a4060;
+    font-family: "DM Mono", monospace;
+    letter-spacing: 2px;
+}
+
+.stats-bar__value {
+    margin-top: 2px;
+    font-size: 22px;
+    color: #6e8efb;
+    font-family: "Syne", sans-serif;
+    font-weight: 700;
+}
